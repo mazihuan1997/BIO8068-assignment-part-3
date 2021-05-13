@@ -15,6 +15,7 @@ library(raster)
 library(leaflet)
 library(leafem)
 library(rgdal)
+library(ggplot2)
 source("LOS.R")
 
 elevation <- raster("www/elevation.tif")
