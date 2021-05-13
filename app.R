@@ -36,7 +36,7 @@ rivers <- rivers %>%
 rivers_ll <- st_transform(rivers, 4326)
 
 roads <- st_read("www/cumbria_roads.shp")
-st_crs(rodas)
+st_crs(roads)
 roads <- roads %>% 
     st_set_crs(27700) %>% 
     st_transform(27700)
